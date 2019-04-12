@@ -13,6 +13,9 @@ src/GilViewer/config/config.hpp
 CMakeLists.txt.user
 GilViewer.cbp
 doc/html/*
+build/
+.vscode 
+src/GilViewer/config/config_plugins.hpp
 
 syntax: glob
 

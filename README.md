@@ -40,5 +40,10 @@ Authors:
  
 Installation instructions:
 
-	Please go to the Homepage.
+	export CC=`which gcc-5`
+    export CXX=`which g++-5`
+    mkdir build
+    cd build
+    cmake ..
+    make -j12
 

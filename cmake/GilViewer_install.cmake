@@ -65,6 +65,7 @@ if(WIN32)
 	INSTALL (TARGETS ${export_lib} EXPORT GilViewer-targets DESTINATION ${GilViewer_INSTALL_PATH}/../../lib COMPONENT library ) 
 else()
 	INSTALL (TARGETS ${export_lib} EXPORT GilViewer-targets DESTINATION ${GilViewer_INSTALL_PATH}/lib COMPONENT library ) 
+	INSTALL (FILES build/GilViewerApp DESTINATION ${GilViewer_INSTALL_PATH}/bin PERMISSIONS WORLD_EXECUTE) 
 endif()
 
 #install config file
